@@ -36,6 +36,21 @@ function llenaVideo(){
 		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['1','1','(Everything I Do) I Do It For You','videos/(Everything I Do) I Do It For You.mp4','img/(Everything I Do) I Do It For You.jpg']);
 		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['2','2','please for give me','videos/please for give me.mp4','img/please for give me.jpg']);
 		
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['3','3','Aerosmith - I Dont Want to Miss a Thing','videos/Aerosmith - I Dont Want to Miss a Thing.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['4','4','Air Supply - Making Love Out Of Nothing At All','videos/Air Supply - Making Love Out Of Nothing At All.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['5','5','Backstreet Boys - I Want It That Way','videos/Backstreet Boys - I Want It That Way.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['6','6','Bon Jovi - Bed Of Roses','videos/Bon Jovi - Bed Of Roses.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['7','7','Bon Jovi - Im ll Be There For You','videos/Bon Jovi - Im ll Be There For You.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['8','8','Bon Jovi  Livin On A Prayer','videos/Bon Jovi  Livin On A Prayer.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['9','9','Bon Jovi You give love a bad name','videos/Bon Jovi You give love a bad name.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['10','10','Bonny Tyler Total eclipse of the heart','videos/Bonny Tyler Total eclipse of the heart.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['11','11','Bryan Adams - Heaven','videos/Bryan Adams - Heaven.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['12','12','Charice Pempengco - All By Myself','videos/Charice Pempengco - All By Myself.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['13','13','George Michael - Careless Whisper','videos/George Michael - Careless Whisper.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['14','14','Joan Jett I hate myself for loving you','videos/Joan Jett I hate myself for loving you.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['15','15','Mariah Carey - Without you','videos/Mariah Carey - Without you.mp4','img/please for give me.jpg']);
+		tx.executeSql("INSERT OR IGNORE INTO video (id,id_video,nombre,ruta,icono) VALUES (?,?,?,?,?)",['16','16','Whitney Houston - I Have Nothing','videos/Whitney Houston - I Have Nothing.mp4','img/please for give me.jpg']);
+		
 	},errorCB,successCB);
 }
 function errorCB(err){
